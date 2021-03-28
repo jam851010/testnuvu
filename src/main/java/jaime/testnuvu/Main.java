@@ -15,7 +15,7 @@ import java.net.URI;
  */
 public class Main {
 
-    public static final String BASE_URI = "http://162.241.132.14:8282/";
+    public static final String BASE_URI = "http://localhost:8282/";
 
     public static HttpServer startServer() {
         final ResourceConfig rc = new ResourceConfig().packages("jaime.testnuvu");

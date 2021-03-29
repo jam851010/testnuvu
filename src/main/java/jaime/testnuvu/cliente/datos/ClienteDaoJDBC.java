@@ -110,6 +110,7 @@ public class ClienteDaoJDBC {
 
         } finally {
             stmt.close();
+            conn.close();
         }
         return rows;
     }
@@ -260,7 +261,6 @@ public class ClienteDaoJDBC {
 
         } finally {
             stmt.close();
-            conn.close();
             conn.close();
         }
         return rows;
